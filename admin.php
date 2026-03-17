@@ -3,10 +3,7 @@ session_start();
 require_once 'config.php';
 require_once 'functions.php';
 
-/** * SECURITY CHECK 
- * Tinitiyak na ang naka-login ay Admin. 
- * Kung hindi, babalik siya sa login page.
- */
+
 if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'Admin') {
     header("Location: admin_login.php");
     exit;
