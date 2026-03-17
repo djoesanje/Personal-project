@@ -5,7 +5,7 @@
 Isang modernong web application para sa NEU Library.
 
 ## 🌐 Live Demo
-Maaari mong ma-access ang live version ng project dito:
+Final Project
 👉 **[https://pebbie.infinityfree.me/](https://pebbie.infinityfree.me/index.php)**
 
 ---
